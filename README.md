@@ -2,9 +2,9 @@
 This project was developed to mod the Logitech K375s and use the controller on a mechanical keyboard.
 
 In order to to that I first reverse engineered the K375s membrane and created the keys matrix. Then with that matrix I created 3 keyboard types:
- - Full - 105 keys
- - TKL
- - 84 Keys
+ - Full - 105 keys;
+ - TKL;
+ - 84 Keys;
 
 I did not created the PCB yet, but I already wiered the switches and it works perfectly.
 #
@@ -22,3 +22,8 @@ This was my first PCB design so if you find any problem, if you have any suggest
 Also feel free to use this to create you own PCB :)
 
 And [this guide](https://post.smzdm.com/p/a99v2k80/) was also verry helpfull to create the PCB
+
+## To Do:
+ - Add leds to all keys (and 2 on the device indicator keys) - for all layouts;
+ - Create knob option - for TKL and Full layouts;
+ - Use ESP8266 to control the leds - for TKL and Full layouts;
