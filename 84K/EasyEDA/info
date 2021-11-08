@@ -1,0 +1,105 @@
+{
+  "uuid": "051f5d61ecf7cc55b1b177915bd1d5ce",
+  "path": "Offline/K375s-84K",
+  "name": "K375s-84K",
+  "content": "",
+  "created_at": "2021-11-05 11:19:45",
+  "updated_at": "2021-11-07 23:10:46",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "0a0096f6908649ab7705b55c399c0096",
+      "title": "Schematic_K375s-84K",
+      "description": "",
+      "docType": "1",
+      "master": "9473ae22a8d5ac871d891697af5ea654",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1636326646,
+      "createTime": 1636283728,
+      "histories": [],
+      "created_at": "2021-11-07 11:15:28",
+      "updated_at": "2021-11-07 23:10:46",
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "M10SILK_FEMALE_PTH",
+          1,
+          "1X10",
+          "A-COL",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "18c26a74d25c405da3ec650532de5bbd",
+            "uuid": "80916843b3224e7c92517b89ac48c154"
+          }
+        ],
+        [
+          "M13LONGPADS",
+          1,
+          "1X13-LONGPADS",
+          "B-ROW",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "72efd72514b146a68a6f1e7485f5a63e",
+            "uuid": "1e2948c8192d4899879245ebe3ba16eb"
+          }
+        ],
+        [
+          "M04LONGPADS",
+          1,
+          "1X04_LONGPADS",
+          "DEVICE_LEDS",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "b2f48a7555df4979af4b0022bf334b87",
+            "uuid": "2926bfa37a29406dabbfa8e915fb8699"
+          }
+        ],
+        [
+          "MX",
+          85,
+          "CHERRY MX 1U",
+          "KEY_SS,K_0,K_1,K_2,K_3,K_4,K_5,K_6,K_7,K_8,K_9,K_+,K_-,K_:,K_;,K_?,K_A,K_A_O,K_B,K_BACKSPACE,K_C,K_C,,K_CAPS,K_COMMA1,K_COMMA2,K_D,K_DELETE,K_DOWN,K_E,K_END,K_ENTER,K_ESC,K_F,K_F1,K_F2,K_F3,K_F4,K_F5,K_F6,K_F7,K_F8,K_F9,K_F10,K_F11,K_F12,K_FN,K_G,K_H,K_HOME,K_I,K_INSERT,K_J,K_K,K_L,K_LEFT,K_L_ALT,K_L_CMD,K_L_CTRL,K_L_SHIFT,K_M,K_N,K_O,K_P,K_PAGE_DOWN,K_PAGE_UP,K_PAUSE,K_Q,K_R,K_RIGHT,K_R_ALT,K_R_CMD,K_R_SHIFT,K_S,K_SPACE,K_T,K_TAB,K_U,K_UP,K_V,K_W,K_X,K_Y,K_Z,K_\\,U93",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1011ff087e6942819072bedccabfa94f",
+            "uuid": "76fe5cead0c54b4daba016eb2174350b"
+          }
+        ]
+      ],
+      "components": {
+        "80916843b3224e7c92517b89ac48c154": 1,
+        "1e2948c8192d4899879245ebe3ba16eb": 1,
+        "2926bfa37a29406dabbfa8e915fb8699": 1,
+        "76fe5cead0c54b4daba016eb2174350b": 85
+      }
+    },
+    {
+      "uuid": "a11d614f5508e9c91054319d96d4ad49",
+      "title": "PCB_K375s-84K",
+      "filename": "PCB_K375s-84K.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "updateTime": 1636287449,
+      "createTime": 1636287449,
+      "histories": [],
+      "created_at": "2021-11-07 12:17:29",
+      "updated_at": "2021-11-07 12:17:29"
+    }
+  ],
+  "sort": [
+    "09a27b182071da8b160956a4bd667b71",
+    "2a20b24764dc7c695caf56f7d749bf11"
+  ],
+  "title": "K375s-84K",
+  "foldername": "K375s-84K",
+  "schfilename": "K375s-84K.json",
+  "schfilemtime": 1636326646396
+}
