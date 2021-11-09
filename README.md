@@ -24,6 +24,12 @@ Also feel free to use this to create you own PCB :)
 And [this guide](https://post.smzdm.com/p/a99v2k80/) was also verry helpfull to create the PCB
 
 ## To Do:
- - Add leds to all keys (and 2 on the device indicator keys) - for all layouts;
- - Create knob option - for TKL and Full layouts;
- - Use ESP8266 to control the leds - for TKL and Full layouts;
+ - ~~Add leds to all keys (and 2 on the device indicator keys) - for all layouts~~ -> Done;
+ - ~~Create knob option - for TKL and Full layouts~~ -> Done for full layout;
+ - ~~Use ESP8266 to control the leds - for TKL and Full layouts~~ -> Done for full layout;
+ - Create new design TKL in order to use knob module;
+ - Code for:
+   - Volume controll;
+   - Back light led controll;
+   - Battery indicator;
+   - LCD info;

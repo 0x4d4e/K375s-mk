@@ -1,24 +1,24 @@
 {
-  "uuid": "051f5d61ecf7cc55b1b177915bd1d5ce",
-  "path": "Offline/K375s-84K",
-  "name": "K375s-84K",
+  "uuid": "414b1f2e121e787698ebc79e03b5a914",
+  "path": "Offline/K375s-TKL",
+  "name": "K375s-TKL",
   "content": "",
-  "created_at": "2021-11-05 11:19:45",
-  "updated_at": "2021-11-08 16:30:04",
+  "created_at": "2021-11-07 21:51:01",
+  "updated_at": "2021-11-08 18:29:22",
   "stick": "",
   "documents": [
     {
-      "uuid": "0a0096f6908649ab7705b55c399c0096",
-      "title": "Schematic_K375s-84K",
+      "uuid": "4d598ef11da814e5c7621f8fdb981e0d",
+      "title": "Schematic_K375s-TKL",
       "description": "",
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1636387672,
+      "updateTime": 1636395361,
       "createTime": 1636283728,
       "histories": [],
       "created_at": "2021-11-07 11:15:28",
-      "updated_at": "2021-11-08 16:07:52",
+      "updated_at": "2021-11-08 18:16:01",
       "BOM": [
         [
           "Value",
@@ -26,6 +26,17 @@
           "Package",
           "Components",
           "CustomPara"
+        ],
+        [
+          "MX",
+          88,
+          "CHERRY MX 1U",
+          "<>,KEY_SS,K_0,K_1,K_2,K_3,K_4,K_5,K_6,K_7,K_8,K_9,K_+,K_-,K_:,K_;,K_?,K_A,K_A_O,K_B,K_BACKSPACE,K_C,K_C,,K_CAPS,K_D,K_DELETE,K_DOWN,K_E,K_END,K_ENTER,K_ESC,K_EXTRA,K_F,K_F1,K_F2,K_F3,K_F4,K_F5,K_F6,K_F7,K_F8,K_F9,K_F10,K_F11,K_F12,K_FN,K_G,K_H,K_HOME,K_I,K_INSERT,K_J,K_K,K_L,K_LEFT,K_L_ALT,K_L_CMD,K_L_CTRL,K_L_SHIFT,K_M,K_N,K_O,K_P,K_PAGE_DOWN,K_PAGE_UP,K_PAUSE,K_Q,K_R,K_RIGHT,K_R_ALT,K_R_CMD,K_R_CTRL,K_R_SHIFT,K_S,K_SCR_LK,K_SPACE,K_T,K_TAB,K_TILDA1,K_TILDA2,K_U,K_UP,K_V,K_W,K_X,K_Y,K_Z,K_\\",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "1011ff087e6942819072bedccabfa94f",
+            "uuid": "76fe5cead0c54b4daba016eb2174350b"
+          }
         ],
         [
           "M10SILK_FEMALE_PTH",
@@ -53,7 +64,7 @@
           "M04LONGPADS",
           1,
           "1X04_LONGPADS",
-          "DEVICE_IN1",
+          "DEVICE_IN",
           {
             "BOM_Manufacturer Part": "",
             "puuid": "b2f48a7555df4979af4b0022bf334b87",
@@ -61,21 +72,10 @@
           }
         ],
         [
-          "MX",
-          84,
-          "CHERRY MX 1U",
-          "KEY_SS,K_0,K_1,K_2,K_3,K_4,K_5,K_6,K_7,K_8,K_9,K_+,K_-,K_:,K_;,K_?,K_A,K_A_O,K_B,K_BACKSPACE,K_C,K_C,,K_CAPS,K_COMMA2,K_D,K_DELETE,K_DOWN,K_E,K_END,K_ENTER,K_ESC,K_F,K_F1,K_F2,K_F3,K_F4,K_F5,K_F6,K_F7,K_F8,K_F9,K_F10,K_F11,K_F12,K_FN,K_G,K_H,K_HOME,K_I,K_INSERT,K_J,K_K,K_L,K_LEFT,K_L_ALT,K_L_CMD,K_L_CTRL,K_L_SHIFT,K_M,K_N,K_O,K_P,K_PAGE_DOWN,K_PAGE_UP,K_PAUSE,K_Q,K_R,K_RIGHT,K_R_ALT,K_R_CMD,K_R_SHIFT,K_S,K_SPACE,K_T,K_TAB,K_TILDA1,K_U,K_UP,K_V,K_W,K_X,K_Y,K_Z,K_\\",
-          {
-            "BOM_Manufacturer Part": "",
-            "puuid": "1011ff087e6942819072bedccabfa94f",
-            "uuid": "76fe5cead0c54b4daba016eb2174350b"
-          }
-        ],
-        [
           "M02",
-          1,
+          2,
           "1X02_LOCK_LONGPADS",
-          "LEDS_PW1",
+          "K_EXTRA_PINS,LEDS_PW",
           {
             "BOM_Manufacturer Part": "",
             "puuid": "3fdc9072b96d434aa6a2f1cdeb0bee8d",
@@ -98,9 +98,9 @@
         ],
         [
           "3.9",
-          84,
+          88,
           "RES-TH_BD2.3-L6.5-P10.50-D0.5",
-          "R_KEY_0_,R_KEY_1_,R_KEY_2_,R_KEY_3_,R_KEY_4_,R_KEY_5_,R_KEY_6_,R_KEY_7_,R_KEY_8_,R_KEY_9,R_KEY_+_,R_KEY_-_,R_KEY_:_,R_KEY_;_,R_KEY_?_,R_KEY_A_,R_KEY_A_O_,R_KEY_BACKSPACE_,R_KEY_B_,R_KEY_C,_,R_KEY_CAPS_,R_KEY_C_,R_KEY_DELETE_,R_KEY_DOWN_,R_KEY_D_,R_KEY_END_,R_KEY_ENTER_,R_KEY_ESC_,R_KEY_E_,R_KEY_F1_,R_KEY_F2_,R_KEY_F3_,R_KEY_F4_,R_KEY_F5_,R_KEY_F6_,R_KEY_F7_,R_KEY_F8_,R_KEY_F9_,R_KEY_F10_,R_KEY_F11_,R_KEY_F12_,R_KEY_FN_,R_KEY_F_,R_KEY_G_,R_KEY_HOME_,R_KEY_H_,R_KEY_INSERT_,R_KEY_I_,R_KEY_J_,R_KEY_K_,R_KEY_LEFT_,R_KEY_L_,R_KEY_L_ALT_,R_KEY_L_CMD_,R_KEY_L_CTRL_,R_KEY_L_SHIFT_,R_KEY_M_,R_KEY_N_,R_KEY_O_,R_KEY_PAGE_DOWN_,R_KEY_PAGE_UP_,R_KEY_PAUSE_,R_KEY_P_,R_KEY_Q_,R_KEY_RIGHT_,R_KEY_R_,R_KEY_R_ALT_,R_KEY_R_CMD_,R_KEY_R_SHIFT_,R_KEY_SPACE_,R_KEY_SS_,R_KEY_S_,R_KEY_TAB_,R_KEY_TILDA1_,R_KEY_TILDA2,R_KEY_T_,R_KEY_UP_,R_KEY_U_,R_KEY_V_,R_KEY_W_,R_KEY_X_,R_KEY_Y_,R_KEY_Z_,R_KEY_\\_",
+          "R_KEY_0,R_KEY_1,R_KEY_2,R_KEY_3,R_KEY_4,R_KEY_5,R_KEY_6,R_KEY_7,R_KEY_8,R_KEY_9,R_KEY_+,R_KEY_-,R_KEY_:,R_KEY_;,R_KEY_<>,R_KEY_?,R_KEY_A,R_KEY_A_O,R_KEY_B,R_KEY_BACKSPACE,R_KEY_C,R_KEY_C,,R_KEY_CAPS,R_KEY_CTRL,R_KEY_D,R_KEY_DELETE,R_KEY_DOWN,R_KEY_E,R_KEY_END,R_KEY_ENTER,R_KEY_ESC,R_KEY_EXTRA,R_KEY_F,R_KEY_F1,R_KEY_F2,R_KEY_F3,R_KEY_F4,R_KEY_F5,R_KEY_F6,R_KEY_F7,R_KEY_F8,R_KEY_F9,R_KEY_F10,R_KEY_F11,R_KEY_F12,R_KEY_FN,R_KEY_G,R_KEY_H,R_KEY_HOME,R_KEY_I,R_KEY_INSERT,R_KEY_K,R_KEY_KJ,R_KEY_L,R_KEY_LEFT,R_KEY_L_ALT,R_KEY_L_CMD,R_KEY_L_CTRL,R_KEY_L_SHIFT,R_KEY_M,R_KEY_N,R_KEY_O,R_KEY_P,R_KEY_PAGE_DOWN,R_KEY_PAGE_UP,R_KEY_PAUSE,R_KEY_Q,R_KEY_R,R_KEY_RIGHT,R_KEY_R_ALT,R_KEY_R_CMD,R_KEY_R_SHIFT,R_KEY_S,R_KEY_SCR_LK,R_KEY_SPACE,R_KEY_SS,R_KEY_T,R_KEY_TAB,R_KEY_TILDA1,R_KEY_TILDA2,R_KEY_U,R_KEY_UP,R_KEY_V,R_KEY_W,R_KEY_X,R_KEY_Y,R_KEY_Z,R_KEY_\\",
           {
             "BOM_Supplier": "LCSC",
             "BOM_Supplier Part": "C119997",
@@ -114,43 +114,44 @@
       "components": {
         "80916843b3224e7c92517b89ac48c154": 1,
         "1e2948c8192d4899879245ebe3ba16eb": 1,
-        "76fe5cead0c54b4daba016eb2174350b": 84,
-        "6944ae39f0744066821897a4b265be75": 84,
-        "ca9d106555c24d5aa57f1e89f8c27ae3": 1,
+        "76fe5cead0c54b4daba016eb2174350b": 88,
+        "ca9d106555c24d5aa57f1e89f8c27ae3": 2,
+        "e408e86eb51c17a27acc3a3dfbfd8633": 3,
         "2926bfa37a29406dabbfa8e915fb8699": 1,
-        "e408e86eb51c17a27acc3a3dfbfd8633": 3
+        "6944ae39f0744066821897a4b265be75": 88
       }
     },
     {
-      "uuid": "a11d614f5508e9c91054319d96d4ad49",
-      "title": "PCB_K375s-84K",
-      "filename": "PCB_K375s-84K.json",
+      "uuid": "12983240b162ae0356a8e083f6ff664a",
+      "title": "PCB_K375s-TKL",
+      "filename": "PCB_K375s-TKL.json",
       "description": "",
       "docType": "3",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1636389004,
-      "createTime": 1636287449,
-      "histories": [],
-      "created_at": "2021-11-07 12:17:29",
-      "updated_at": "2021-11-08 16:30:04",
       "components": {
-        "9ea59130ae074fa3abe27de8cbf71d91": 84,
-        "1011ff087e6942819072bedccabfa94f": 84,
         "b2f48a7555df4979af4b0022bf334b87": 1,
-        "3fdc9072b96d434aa6a2f1cdeb0bee8d": 1,
         "192772e072a64753877247a673fe06f5": 3,
+        "9ea59130ae074fa3abe27de8cbf71d91": 88,
+        "1011ff087e6942819072bedccabfa94f": 88,
+        "3fdc9072b96d434aa6a2f1cdeb0bee8d": 2,
         "18c26a74d25c405da3ec650532de5bbd": 1,
         "72efd72514b146a68a6f1e7485f5a63e": 1
-      }
+      },
+      "BOM": [],
+      "updateTime": 1636396162,
+      "createTime": 1636316245,
+      "histories": [],
+      "created_at": "2021-11-07 20:17:25",
+      "updated_at": "2021-11-08 18:29:22"
     }
   ],
   "sort": [
-    "09a27b182071da8b160956a4bd667b71",
+    "4d598ef11da814e5c7621f8fdb981e0d",
     "2a20b24764dc7c695caf56f7d749bf11"
   ],
-  "title": "K375s-84K",
-  "foldername": "K375s-84K",
-  "schfilename": "K375s-84K.json",
-  "schfilemtime": 1636387672512
+  "title": "K375s-TKL",
+  "foldername": "K375s-TKL",
+  "schfilename": "K375s-TKL.json",
+  "schfilemtime": 1636395361508
 }

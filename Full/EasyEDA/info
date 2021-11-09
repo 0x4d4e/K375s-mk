@@ -4,7 +4,7 @@
   "name": "K375s-Full",
   "content": "",
   "created_at": "2021-11-05 11:19:45",
-  "updated_at": "2021-11-07 23:09:38",
+  "updated_at": "2021-11-09 12:55:49",
   "stick": "",
   "documents": [
     {
@@ -14,11 +14,11 @@
       "docType": "1",
       "master": "",
       "thumb": "/images/thumb-default.png",
-      "updateTime": 1636319692,
+      "updateTime": 1636461945,
       "createTime": 1636283728,
       "histories": [],
       "created_at": "2021-11-07 11:15:28",
-      "updated_at": "2021-11-07 21:14:52",
+      "updated_at": "2021-11-09 12:45:45",
       "BOM": [
         [
           "Value",
@@ -31,7 +31,7 @@
           "MX",
           105,
           "CHERRY MX 1U",
-          "<>,KEY_SS,K_0,K_1,K_2,K_3,K_4,K_5,K_6,K_7,K_8,K_9,K_+,K_-,K_:,K_;,K_?,K_A,K_A_O,K_B,K_BACKSPACE,K_C,K_C,,K_CAPS,K_COMMA1,K_COMMA2,K_D,K_DELETE,K_DOWN,K_E,K_END,K_ENTER,K_ESC,K_EXTRA,K_F,K_F1,K_F2,K_F3,K_F4,K_F5,K_F6,K_F7,K_F8,K_F9,K_F10,K_F11,K_F12,K_FN,K_G,K_H,K_HOME,K_I,K_INSERT,K_J,K_K,K_L,K_LEFT,K_L_ALT,K_L_CMD,K_L_CTRL,K_L_SHIFT,K_M,K_N,K_NUM_0,K_NUM_1,K_NUM_2,K_NUM_3,K_NUM_4,K_NUM_5,K_NUM_6,K_NUM_7,K_NUM_8,K_NUM_9,K_NUM_*,K_NUM_+,K_NUM_-,K_NUM_/,K_NUM_DEL,K_NUM_ENTER,K_NUM_LK,K_O,K_P,K_PAGE_DOWN,K_PAGE_UP,K_PAUSE,K_Q,K_R,K_RIGHT,K_R_ALT,K_R_CMD,K_R_CTRL,K_R_SHIFT,K_S,K_SCR_LK,K_SPACE,K_T,K_TAB,K_U,K_UP,K_V,K_W,K_X,K_Y,K_Z,K_\\",
+          "<>,KEY_SS,K_0,K_1,K_2,K_3,K_4,K_5,K_6,K_7,K_8,K_9,K_+,K_-,K_:,K_;,K_?,K_A,K_A_O,K_B,K_BACKSPACE,K_C,K_C,,K_CAPS,K_COMMA2,K_D,K_DELETE,K_DOWN,K_E,K_END,K_ENTER,K_ESC,K_EXTRA,K_F,K_F1,K_F2,K_F3,K_F4,K_F5,K_F6,K_F7,K_F8,K_F9,K_F10,K_F11,K_F12,K_FN,K_G,K_H,K_HOME,K_I,K_INSERT,K_J,K_K,K_L,K_LEFT,K_L_ALT,K_L_CMD,K_L_CTRL,K_L_SHIFT,K_M,K_N,K_NUM_0,K_NUM_1,K_NUM_2,K_NUM_3,K_NUM_4,K_NUM_5,K_NUM_6,K_NUM_7,K_NUM_8,K_NUM_9,K_NUM_*,K_NUM_+,K_NUM_-,K_NUM_/,K_NUM_DEL,K_NUM_ENTER,K_NUM_LK,K_O,K_P,K_PAGE_DOWN,K_PAGE_UP,K_PAUSE,K_Q,K_R,K_RIGHT,K_R_ALT,K_R_CMD,K_R_CTRL,K_R_SHIFT,K_S,K_SCR_LK,K_SPACE,K_T,K_TAB,K_TILDA1,K_U,K_UP,K_V,K_W,K_X,K_Y,K_Z,K_\\",
           {
             "BOM_Manufacturer Part": "",
             "puuid": "1011ff087e6942819072bedccabfa94f",
@@ -62,9 +62,9 @@
         ],
         [
           "M04LONGPADS",
-          1,
+          2,
           "1X04_LONGPADS",
-          "DEVICE_LEDS",
+          "DEVICE_IN,LCD_PIN_OUT",
           {
             "BOM_Manufacturer Part": "",
             "puuid": "b2f48a7555df4979af4b0022bf334b87",
@@ -72,23 +72,96 @@
           }
         ],
         [
+          "M05LOCK_LONGPADS",
+          1,
+          "1X05_LOCK_LONGPADS",
+          "KNOB",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "f4056d3e2e254fb188d5019f1ecc4a56",
+            "uuid": "6a73503c83f24acead41023aff0ddb7a"
+          }
+        ],
+        [
+          "3ARB9HCB",
+          3,
+          "LED-3MM",
+          "LED_D1_F1,LED_D2_F2,LED_D3_F3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "KENTO",
+            "BOM_Manufacturer Part": "3ARB9HCB",
+            "BOM_Supplier Part": "C42016",
+            "puuid": "192772e072a64753877247a673fe06f5",
+            "uuid": "e408e86eb51c17a27acc3a3dfbfd8633"
+          }
+        ],
+        [
+          "ESP-12E",
+          1,
+          "WIFIM-SMD_ESP-12E-BR",
+          "MK1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker",
+            "BOM_Manufacturer Part": "ESP-12E",
+            "BOM_Supplier Part": "C89297",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fd93bb31c0f74cbb97e1f70c853d34f2",
+            "uuid": "f1798a96108007cb5dbffa5787ccc495"
+          }
+        ],
+        [
           "M02",
           1,
           "1X02_LOCK_LONGPADS",
-          "K_EXTRA_PINS",
+          "PW",
           {
             "BOM_Manufacturer Part": "",
             "puuid": "3fdc9072b96d434aa6a2f1cdeb0bee8d",
             "uuid": "ca9d106555c24d5aa57f1e89f8c27ae3"
+          }
+        ],
+        [
+          "G3VM-61D1(TR)",
+          2,
+          "SMD-4_L4.6-W6.4-P2.54-LS10.0-BL",
+          "RL_F11,RL_F12",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C469131",
+            "BOM_Manufacturer": "Omron Electronics",
+            "BOM_Manufacturer Part": "G3VM-61D1(TR)",
+            "puuid": "ea039dc6fadc4011a2589cf4ff168486",
+            "uuid": "26a75331502e47b8b326b91494b4c477"
+          }
+        ],
+        [
+          "3.9",
+          110,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R_KEY_0,R_KEY_1,R_KEY_2,R_KEY_3,R_KEY_4,R_KEY_5,R_KEY_6,R_KEY_7,R_KEY_8,R_KEY_9,R_KEY_+,R_KEY_-,R_KEY_:,R_KEY_;,R_KEY_<>,R_KEY_?,R_KEY_A,R_KEY_A_O,R_KEY_B,R_KEY_BACKSPACE,R_KEY_C,R_KEY_C,,R_KEY_CAPS,R_KEY_D,R_KEY_DELETE,R_KEY_DOWN,R_KEY_E,R_KEY_END,R_KEY_ENTER,R_KEY_ESC,R_KEY_EXTRA,R_KEY_F,R_KEY_F1,R_KEY_F2,R_KEY_F3,R_KEY_F4,R_KEY_F5,R_KEY_F6,R_KEY_F7,R_KEY_F8,R_KEY_F9,R_KEY_F10,R_KEY_F11,R_KEY_F12,R_KEY_FN,R_KEY_G,R_KEY_H,R_KEY_HOME,R_KEY_I,R_KEY_INSERT,R_KEY_J,R_KEY_K,R_KEY_L,R_KEY_LEFT,R_KEY_L_ALT,R_KEY_L_CMD,R_KEY_L_CTRL,R_KEY_L_SHIFT,R_KEY_M,R_KEY_N,R_KEY_NUM_0,R_KEY_NUM_1,R_KEY_NUM_2,R_KEY_NUM_3,R_KEY_NUM_4,R_KEY_NUM_5,R_KEY_NUM_6,R_KEY_NUM_7,R_KEY_NUM_8,R_KEY_NUM_9,R_KEY_NUM_*,R_KEY_NUM_+,R_KEY_NUM_-,R_KEY_NUM_/,R_KEY_NUM_DEL,R_KEY_NUM_ENTER,R_KEY_NUM_LK,R_KEY_O,R_KEY_P,R_KEY_PAGE_DOWN,R_KEY_PAGE_UP,R_KEY_PAUSE,R_KEY_Q,R_KEY_R,R_KEY_RIGHT,R_KEY_R_ALT,R_KEY_R_CMD,R_KEY_R_CTRL,R_KEY_R_SHIFT,R_KEY_S,R_KEY_SCR_LK,R_KEY_SPACE,R_KEY_SS,R_KEY_T,R_KEY_TAB,R_KEY_TILDA1,R_KEY_TILDA2,R_KEY_U,R_KEY_UP,R_KEY_V,R_KEY_W,R_KEY_X,R_KEY_Y,R_KEY_Z,R_KEY_\\,R_K_EXTRA,R_RL_F11,R_RL_F12,R_VI_1,R_VI_2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C119997",
+            "BOM_Manufacturer": "Chian Chia Elec",
+            "BOM_Manufacturer Part": "-",
+            "puuid": "9ea59130ae074fa3abe27de8cbf71d91",
+            "uuid": "6944ae39f0744066821897a4b265be75"
           }
         ]
       ],
       "components": {
         "80916843b3224e7c92517b89ac48c154": 1,
         "1e2948c8192d4899879245ebe3ba16eb": 1,
-        "2926bfa37a29406dabbfa8e915fb8699": 1,
         "76fe5cead0c54b4daba016eb2174350b": 105,
-        "ca9d106555c24d5aa57f1e89f8c27ae3": 1
+        "26a75331502e47b8b326b91494b4c477": 2,
+        "f1798a96108007cb5dbffa5787ccc495": 1,
+        "2926bfa37a29406dabbfa8e915fb8699": 2,
+        "6a73503c83f24acead41023aff0ddb7a": 1,
+        "ca9d106555c24d5aa57f1e89f8c27ae3": 1,
+        "6944ae39f0744066821897a4b265be75": 110,
+        "e408e86eb51c17a27acc3a3dfbfd8633": 3
       }
     },
     {
@@ -101,18 +174,23 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "9ea59130ae074fa3abe27de8cbf71d91": 110,
+        "b2f48a7555df4979af4b0022bf334b87": 2,
+        "f4056d3e2e254fb188d5019f1ecc4a56": 1,
+        "192772e072a64753877247a673fe06f5": 3,
+        "fd93bb31c0f74cbb97e1f70c853d34f2": 1,
+        "ea039dc6fadc4011a2589cf4ff168486": 2,
         "1011ff087e6942819072bedccabfa94f": 105,
         "3fdc9072b96d434aa6a2f1cdeb0bee8d": 1,
         "18c26a74d25c405da3ec650532de5bbd": 1,
-        "72efd72514b146a68a6f1e7485f5a63e": 1,
-        "b2f48a7555df4979af4b0022bf334b87": 1
+        "72efd72514b146a68a6f1e7485f5a63e": 1
       },
       "BOM": [],
-      "updateTime": 1636326578,
+      "updateTime": 1636462549,
       "createTime": 1636316245,
       "histories": [],
       "created_at": "2021-11-07 20:17:25",
-      "updated_at": "2021-11-07 23:09:38"
+      "updated_at": "2021-11-09 12:55:49"
     }
   ],
   "sort": [
@@ -122,5 +200,5 @@
   "title": "K375s-Full",
   "foldername": "K375s-Full",
   "schfilename": "K375s-Full.json",
-  "schfilemtime": 1636319692296
+  "schfilemtime": 1636461945747
 }
