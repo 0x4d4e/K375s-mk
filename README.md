@@ -29,7 +29,7 @@ And [this guide](https://post.smzdm.com/p/a99v2k80/) was also verry helpfull to 
  - ~~Use ESP8266 to control the leds - for TKL and Full layouts~~ -> Done for full layout;
  - Create new design TKL in order to use knob module;
  - Code for:
-   - Volume controll;
-   - Back light led controll;
+   - Volume control;
+   - Back light led control;
    - Battery indicator;
    - LCD info;
